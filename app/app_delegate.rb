@@ -10,6 +10,12 @@ class AppDelegate
     @window.rootViewController = navigationController
     @window.makeKeyAndVisible
 
+
+    alert = UIAlertView.new
+    alert.message = "Hello Motion!"
+    alert.show
+
+    puts "Hello again!"
     true
   end
 end
